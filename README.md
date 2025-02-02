@@ -1,2 +1,1 @@
-# Vistaraft
-Travel website for trip booking.
+Vistaraft is a trip booking website
