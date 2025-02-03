@@ -1,27 +1,24 @@
-import './App.css'
-import Footer from './component/Footer/Footer'
-import Navbar from './component/Navbar/Navbar'
-import Card from './component/Card/Card'
-import photo1 from './assets/photo1.jpg'
-import photo2 from './assets/photo2.jpg'
-import photo3 from './assets/photo3.jpg'
-import photo4 from './assets/photo4.jpg'
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Terms from "./component/Terms/Terms";
+import Privacy from "./component/Privacy/Privacy";
+import Cancellation from "./component/Cancellation/Cancellation";
+import Contact from "./component/Contact/Contact";
+import Home from './component/Home/Home';
+// Define your App component
 function App() {
-
-  return (
-    <div class="w-full">
-      <Navbar/>
-      <div className="flex justify-center items-center gap-4">
-        <Card photo={photo1} />
-        <Card photo={photo2} />
-      </div>
-      <div className="flex justify-center items-center gap-4">
-        <Card photo={photo3} />
-        <Card photo={photo4} />
-      </div>
-      <Footer/>
-    </div>
-  )
+  return (<div class="w-full justify-center">
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/cancellation" element={<Cancellation />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  </div>
+  );
 }
 
-export default App
+export default App;
