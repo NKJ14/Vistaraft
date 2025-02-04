@@ -12,22 +12,22 @@ function Footer() {
       {/* Navigation Links */}
       <nav className="flex gap-4 justify-center mb-4">
         <Link to="/terms">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+          <button className="px-4 py-2 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition">
             Terms
           </button>
         </Link>
         <Link to="/privacy">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+          <button className="px-4 py-2 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition">
             Privacy
           </button>
         </Link>
         <Link to="/cancellation">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+          <button className="px-4 py-2 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition">
             Cancellation
           </button>
         </Link>
         <Link to="/contact">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+          <button className="px-4 py-2 bg-blue-500 text-black rounded-lg hover:bg-blue-600 transition">
             Contact
           </button>
         </Link>
@@ -59,7 +59,7 @@ function Footer() {
 
       {/* Footer Text */}
       <div className="text-center text-gray-600 text-sm mt-4">
-        © {currentYear} siteName. All rights reserved.
+        © {currentYear} Vistaraft. All rights reserved.
       </div>
     </div>
   );
