@@ -2,7 +2,7 @@ import './navbar.css';
 import vistaLogo from '../Navbar/vista_logo.jpg';
 function Navbar() {
   return (
-    <nav class="bg-gray-800">
+    <nav class="bg-gray-800 left-0 w-full fixed z-50">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -30,7 +30,7 @@ function Navbar() {
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex shrink-0 items-center">
-          <img class="h-8 w-auto" src={vistaLogo} alt="Your Company"/>
+          <img class="h-8 w-full" src={vistaLogo} alt="Your Company"/>
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-5">
