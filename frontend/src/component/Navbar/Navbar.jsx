@@ -35,10 +35,10 @@ function Navbar() {
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-5">
             {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-            <a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">January</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">February</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
+            <a href="/jan" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">January</a>
+            <a href="/feb" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">February</a>
+            <a href="/contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
+            <a href="/about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">+91 8384076491</a>
           </div>
         </div>
@@ -66,10 +66,10 @@ function Navbar() {
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pt-2 pb-3">
       {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-      <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-left font-medium text-white" aria-current="page">January</a>
-      <a href="#" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">February</a>
-      <a href="#" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
-      <a href="#" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About us</a>
+      <a href="/jan" class="block rounded-md bg-gray-900 px-3 py-2 text-left font-medium text-white" aria-current="page">January</a>
+      <a href="/feb" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">February</a>
+      <a href="/contact" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
+      <a href="/about" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About us</a>
       <a href="#" class="block rounded-md px-3 py-2 text-left font-medium text-gray-300 hover:bg-gray-700 hover:text-white">+91 8384076491</a>
     </div>
   </div>

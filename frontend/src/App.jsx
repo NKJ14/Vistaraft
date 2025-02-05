@@ -5,6 +5,8 @@ import Privacy from "./component/Privacy/Privacy";
 import Cancellation from "./component/Cancellation/Cancellation";
 import Contact from "./component/Contact/Contact";
 import Home from './component/Home/Home';
+import Febraury from './component/February/Febraury';
+import January from './component/January/January';
 // Define your App component
 function App() {
   return (<div class="w-full justify-center">
@@ -15,6 +17,9 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/cancellation" element={<Cancellation />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/jan" element={<January/>} />
+        <Route path="/feb" element={<Febraury/>} />
+        
       </Routes>
     </Router>
   </div>

@@ -10,7 +10,7 @@ function Home(){
     return(
       <div className="min-h-screen flex flex-col justify-between px-4 md:px-0">
       <Navbar />
-      <Hero/>
+      <Hero />
       <br/>
       <br/>
       <br/>

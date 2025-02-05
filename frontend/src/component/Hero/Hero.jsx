@@ -1,5 +1,5 @@
-import hero1 from "../../assets/hero1.jpg";
 import Typewriting from "../Typewriting/Typewriting";
+import hero1 from "../../assets/hero1.jpg";
 function Hero() {
   return (
     <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${hero1})` }}>
@@ -19,20 +19,7 @@ function Hero() {
             </p>
 
             {/* <!-- Buttons --> */}
-            <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-            <a
-                class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-gray-50 text-white shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
-                href="#"
-              >
-                Get Started
-              </a>
-              <a
-                class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-gray-50 text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
-                href="#"
-              >
-                Book a Trip Now
-              </a>
-            </div>
+          
             {/* <!-- End Buttons --> */}
 
             {/* <!-- Review --> */}
