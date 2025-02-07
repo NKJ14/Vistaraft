@@ -1,5 +1,6 @@
 import Typewriting from "../Typewriting/Typewriting";
 import hero1 from "../../assets/hero1.jpg";
+import WebFont from "webfontloader";
 function Hero() {
   return (
     <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${hero1})` }}>
